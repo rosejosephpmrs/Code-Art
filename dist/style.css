@@ -1,0 +1,254 @@
+html,body{
+  background-color: #4d0000;
+   font-family: 'Allura';
+  font-size: 30px;
+}
+.main-container{
+  height:900px;
+  background-color:#4d0000;
+}
+.diwali{
+  color:white;
+  background-color:#4d0000;
+  position:absolute;
+  top:500px;
+  left:45%;
+  text-shadow:5px 5px 8px orange;
+  
+} 
+
+.diya{
+  position: absolute;
+  background-color: white;
+  height: 175px;
+  width:10px;
+ 
+}
+.diya-1{
+  top:120px;
+  left:50%;
+}
+
+.diya-2{
+  top:200px;
+  left:38%;
+  transform: rotate(-45deg);
+ 
+}
+.diya-3{
+  transform: rotate(-90deg);
+  top:370px; 
+  left:32%;
+}
+.diya-4{
+  transform: rotate(-135deg);
+  top:540px;
+  left:38%;
+}
+.diya-5{
+  transform: rotate(-180deg);
+  top:650px;
+  left:50%;
+}
+.diya-6{
+  transform: rotate(135deg);
+  top:540px;
+  left:62%;
+}
+.diya-7{
+  transform: rotate(90deg);
+  top:370px;
+  left:68%;
+}
+.diya-8{
+  transform: rotate(45deg);
+  top:200px;
+  left:62%;
+}
+.innerdiya{
+  position:absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 0 90% 75% 90%;
+  transform: rotate(45deg);
+  bottom:0px;
+  box-shadow: 0 2px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.inner1{
+  height:50px;
+  width:50px;
+  background-color: #67194d;
+  left: -180%;
+}
+.inner2{
+  height:75px;
+  width:75px;
+  background-color:#e6e600;
+  left:-320%;
+}
+.inner3{
+  height:100px;
+  width:100px;
+  background-color:	 #1a1aff;
+  left:-420%;
+}
+.inner4{
+  height:125px;
+  width:125px;
+  background-color:#ff8c1a;
+  left:-550%
+  
+}
+.inner5{
+  height:150px;
+  width:150px;
+  background-color:#ee0000;
+  left:-700%;
+  box-shadow:4px 4px 7px orange;
+}
+.smalldiya{
+  position: absolute;
+  background-color: white;
+  height: 50px;
+  width:10px;
+}
+.smalldiya1{
+  transform:rotate(-30deg);
+  top:140px;
+  left:40%;
+  
+}
+.smalldiya2{
+  transform:rotate(-60deg);
+  top: 300px;
+  left: 28%;
+}
+.smalldiya3{
+  transform:rotate(-120deg);
+  left:28%;
+  top:580px;
+}
+.smalldiya4{
+  transform:rotate(-150deg);
+  left:40%;
+  top:750px;
+}
+.smalldiya5{
+  transform:rotate(150deg);
+  left:60%;
+  top:750px;
+}
+.smalldiya6{
+  transform:rotate(120deg);
+  left: 72%;
+  top:580px;
+}
+.smalldiya7{
+  transform:rotate(60deg);
+  left: 72%;
+  top:300px;
+}
+.smalldiya8{
+  transform:rotate(30deg);
+  left:60%;
+  top:140px;
+}
+.smallinner{
+ position:absolute;
+  width: 50px;
+  height:50px;
+  border-radius: 0 90% 75% 90%;
+  transform: rotate(45deg);
+  bottom:0px;
+  box-shadow: 0 2px 1px 2px rgba(0, 0, 0, 0.4)
+}
+.smallinner2{
+  background-color:#e6e600;
+  height:25px;
+  width:25px; 
+  left:-7px;
+}
+
+.smallinner1{
+  background-color:#ee0000;
+  height:50px;
+  width:50px;
+  left:-20px;
+  box-shadow:5px 5px 8px orange;
+}
+
+
+body{
+  background:black;
+}
+
+.container{
+  bottom:10px;
+  width: 60px;
+  height: 60px;
+  position:absolute;
+  left:-15px;
+  animation-name: flicker;
+  animation-duration:3ms;
+  animation-delay:200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.flame{
+  bottom:0;
+  position:absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform:rotate(-45deg) scale(1.5,1.5);
+}
+
+.yellow{
+  left:15px; 
+  width: 15px;
+  height: 15px;
+  background:gold;
+  box-shadow: 0px 0px 9px 4px gold;
+}
+
+.orange{
+  left:10px; 
+  width: 20px;
+  height: 20px;
+  background:orange;
+  box-shadow: 0px 0px 9px 4px orange;
+}
+
+.red{
+  left:5px;
+  width: 25px;
+  height: 25px;
+  background:OrangeRed;
+  box-shadow: 0px 0px 5px 4px OrangeRed;
+}
+
+.white{
+  left:15px; 
+  bottom:-4px;
+  width: 15px;
+  height: 15px;
+  background:white;
+  box-shadow: 0px 0px 9px 4px white;
+}
+
+.circle{
+  border-radius: 50%;
+  position:absolute;  
+}
+
+
+@keyframes flicker{
+  0%   {transform: rotate(-1deg);}
+  20%  {transform: rotate(1deg);}
+  40%  {transform: rotate(-1deg);}
+  60%  {transform: rotate(1deg) scaleY(1.04);}
+  80%  {transform: rotate(-2deg) scaleY(0.92);}
+  100% {transform: rotate(1deg);}
+}
